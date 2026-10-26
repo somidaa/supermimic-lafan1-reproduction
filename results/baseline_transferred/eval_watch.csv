@@ -1,0 +1,3 @@
+ckpt,iteration,num_updates,clips,failed,mean_norm_return,step_weighted_norm_return
+logs\baseline_s3core\ckpt_init.pt,200,56,40,40,0.001842,0.001754
+logs\baseline_s3core\ckpt_final.pt,1000,798,40,40,0.001853,0.001764

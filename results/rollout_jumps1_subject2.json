@@ -1,0 +1,23 @@
+{
+ "clip": "jumps1_subject2",
+ "steps": 12222,
+ "seconds": 244.44,
+ "failed": false,
+ "fail_step": null,
+ "sum_reward": 1019.8041039509699,
+ "checkpoint": "logs\\lafan1_full\\ckpt_0048000.pt",
+ "anchor_obs": true,
+ "protocol": "Appendix F.1 (first frame, no noise, no DR, friction 1.0, deterministic)",
+ "frames_rendered": 2445,
+ "render_stride": 5,
+ "output_fps": 10.0,
+ "resolution": [
+  480,
+  360
+ ],
+ "camera": {
+  "azimuth": 120.0,
+  "elevation": -10.0,
+  "distance": 3.0
+ }
+}

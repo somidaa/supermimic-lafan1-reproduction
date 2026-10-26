@@ -1,0 +1,56 @@
+# --- motion data: never redistributed (see docs/DATA_LICENSE.md) ---
+# NOTE: root-anchored on purpose. A bare "data/" would also exclude src/supermimic/data/,
+# which is source code.
+/data/
+*.csv
+*.npz
+*.npy
+*.h5
+*.bvh
+
+# --- model artifacts ---
+*.pt
+*.pth
+*.ckpt
+
+# --- raw run outputs that are not curated ---
+/logs/
+/tb/
+/runs/
+/wandb/
+events.out.tfevents.*
+*.log
+
+# --- caches ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+/venv/
+/env/
+*.egg-info/
+/build/
+/dist/
+.warp/
+.nvidia/
+triton_cache/
+torch_compile_cache/
+
+# --- editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- keep the curated artifacts that *are* published ---
+!requirements-locked.txt
+!results/**/*.json
+!results/**/*.csv
+!results/**/*.png
+!media/**/*.mp4
+!media/**/*.gif
+!media/**/*.png
+!configs/*.json

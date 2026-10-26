@@ -1,0 +1,15 @@
+# Keep text files LF in the repository regardless of the checkout platform, so the published
+# files are byte-identical to the ones that were verified.
+* text=auto eol=lf
+
+# Binary artifacts must never be line-ending converted.
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.gif binary
+*.pt binary
+*.npz binary
+*.csv binary
+
+# Generated file
+MANIFEST.sha256 -text
